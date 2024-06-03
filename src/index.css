@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .align-super {
+    vertical-align: super;
+    font-size: 0.75em;
+    
+  }
+  .text-xxs {
+    font-size: 0.225rem; /* Custom size smaller than text-xs */
+  }
+}
